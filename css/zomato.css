@@ -1,0 +1,375 @@
+body{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    height: 450px;
+    position: relative;
+}
+.headerimage img{
+    width: 100%;
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 19px 130px;    
+}
+.ul{
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    gap: 20px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+.logo{
+    width: 280px;
+}
+.head h3{
+    font-size: 35px;
+    color:whitesmoke ;
+    font-weight: 400;
+}
+.search{
+    display: flex;
+    width: 715px;
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    padding: 5px 4px;
+}
+.search .searchitem{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.search .searchitem p{
+    color: gray;
+    border-right: 1px solid gray;
+    font-size: 15px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.search .searchitem input{
+    outline: none;
+    border: none;
+    width: 200%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search .searchitem:first-child{
+    width: 30%;
+    color:rgb(255,126,139);
+}
+.search .searchitem:last-child{
+    width: 70%;
+    color:gray;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    position: relative;
+    width: 353px;
+    height: 240px;
+    margin: 3px 9px;
+    overflow: hidden;
+    border-radius:15px ;
+    box-shadow: 0 1px 2px rgb(173, 173, 173);
+    background-color: rgb(243, 240, 240);
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid rgb(204,203,203);
+    z-index: -1;
+}
+.white{
+    position: absolute;
+    bottom: 0px;
+    border-radius:0 0 15px 15px ;
+    background-color:white ;
+    width: 100%;
+}
+.white p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: rgb(56,56,56);
+    letter-spacing: 0.7px;
+}
+.main{
+    margin: 60px 120px;
+}
+/* section2 */
+.section2 h2{
+    font-size: 38px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.section2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.section2 h6{
+    margin: 0;
+    font-size: 17px;
+    font-weight: lighter;
+    color: rgb(99,98,98);
+}
+.fa-caret-right,
+.section2 span
+{
+    color: rgb(248, 117, 117);
+
+}
+.box1{
+    width: 270px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+.box1 div {
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+}
+
+.box1 div span:first-child {
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.box1 i {
+    color: white;
+    padding-bottom: 15px;
+}
+.box1 img {
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+    z-index: -1;
+   
+}
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+.h1{
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 50px;
+    color: rgb(56,56,56);
+}
+.section4{
+    display: grid;
+	justify-content: center;
+    grid-row-gap: 30px;
+    grid-template-columns: 340px 340px 340px;
+    grid-column-gap: 20px;
+    grid-template-rows: auto;
+}
+.box2 {
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px 3px rgb(226, 223, 223);
+    width: 340px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box2 div {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.box2 div span {
+    color: rgb(65, 64, 64);
+    font-size: 16px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.section5{
+    display: flex;
+    margin: 90px 0;
+    padding: 40px 0;
+    justify-content: center;
+    background-color: rgb(255,248,248);
+}
+.flex{
+    display: flex;
+}
+.content{
+    width: 760px;
+    overflow: hidden;
+}
+.content img{
+    width: 250px;
+    height: 450px;
+    padding-right: 40px;
+}
+.address{
+    width: 470px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.address p{
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: rgb(92,91,91);
+}
+.address.h2{
+    font-size: 43px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: rgb(34, 34, 34);
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    padding-bottom: 20px;
+}
+.radio label{
+    font-size: 17px;
+    color: rgb(49, 49, 49);
+}
+.radio [type="radio"]{
+    accent-color: rgb(255,92,92);
+
+}
+.email{
+    position: relative;
+}
+.email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(184,183,183);
+    outline: rgb(255, 92, 92);
+    font-size: 1.3rem;
+    padding-left: 15px;
+
+}
+.email button {
+    width: 150px;
+    border-radius: 6px;
+    border: 1px solid rgb(253, 104, 104);
+    background-color: rgb(255, 106, 106);
+    font-size: 1.1rem;
+    margin-left: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.email button:hover {
+    background-color: rgb(253, 67, 67);
+}
+.download {
+    font-size: 0.7rem;
+    margin-top: 27px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.app img {
+    width: 137px;
+    height: 40px;
+    cursor: pointer;
+}
+.section6{
+    padding: 40px 120px;
+    background-color: rgb(244, 244, 253);
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.firstone{
+    display: flex;
+}
+.firstone span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.second div{
+    width: 240px;
+}
+.second h4 {
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+    white-space: nowrap;
+}
+
+.second a {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.second img {
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.box-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-4 i {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.third{
+    padding: 10px 0;
+    color: gray;
+    font-size: 0.7rem;
+}

@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+}
+
+.nav p {
+    text-align: center;
+    color: antiquewhite;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ul {
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    gap: 20px;
+}
+
+.ul li {
+    font-size: 18px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+}
+
+.image img {
+    width: 100%;
+    height: 850px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.head .icon {
+    margin-right: 80px;
+}
+
+.head .logo {
+    margin-left: 32px;
+}
+
+.section .sectionmain button {
+    background-color: yellow;
+    height: 40px;
+    width: 134px;
+    font-weight: bold;
+}
+
+.sectionmain {
+
+    color: aliceblue;
+    position: relative;
+    top: -200px;
+    left: 40px ;
+    line-height: 58.65px;
+}
+/* main css start */
+.main{
+    margin: 0 80px;
+    cursor: pointer;
+}
+/* section1 css start */
+.section1{
+    width: 100%;
+    height: 500px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+/* heading css start */
+.heading{
+    width: 100%;
+    height: 138px;
+    background: whitesmoke;
+}
+.heading h1{
+    font-family: 'PrestigeElitestd';
+    font-size: 39px;
+    border-bottom: 1px solid #ffcd00;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 530px;
+    margin-top: 59px;
+    margin-bottom: 35px;
+}
+/* im css start */
+.im{
+    width:100%;
+    height: 410px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+}
+.im img{
+    width: 270px;
+    height: 340px;
+    padding: 0px 3px;
+}
+.im div{
+    width: 270px;
+    height: 377px;
+}
+.im div h2{
+    font-family:sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ffcd00;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+/* section2 css start */
+.section2{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: white;
+    padding-top: 52px;
+}
+/* box1 css start */
+.box1{
+    width: 535px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.box1 img{
+    width: 535px;
+    height: 388px;
+}
+.box1 h1{
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 40px;
+    font-family: 'PrestigeElitestd';
+    font-weight: bold;
+    padding-left: 141px;
+}
+.section3{
+    background: url(https://cdn.shopify.com/s/files/1/0907/2228/files/Untitled_design-41_1500x.jpg?v=1662379395);
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.section3 h1{
+    font-family: 'PrestigeElitestd';
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 230px;
+}
+.section3 p{
+    color: white;
+    font-family: 'PrestigeElitestd';
+    font-size: 20px;
+    text-align: center;
+    line-height: 28.5px;
+    word-spacing: -2px;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+.section3 button{
+    background: #ffd200;
+    border: transparent;
+    font-family: 'PrestigeElitestd';
+    font-weight: 700;
+    width: 117px;
+    height: 42px;
+    font-size: 17px;
+    position: relative;
+    top: 4%;
+    margin-left: 761px;
+    cursor: pointer;
+}
+.sectionmain{
+    margin: 0 80px;
+    cursor: pointer;
+    font-family: 'PrestigeElitestd';
+}
+.section4{
+    width: 100%;
+    height:550px;
+    background: white;
+    padding: 104px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box2{
+    width: 200px;
+    height: 126px;
+    background: white;
+    opacity: 0.6;
+    transition: 0.3s;
+    margin: 0px -102px;
+}
+.box2 img{
+    width: 266px;
+    height: 350px;
+
+}
+.box2:hover{
+    opacity: 1;
+}
+.star{
+    color: gold;
+    font-size: 12px;
+    padding-bottom: 9px;
+    padding-left: 22px;
+}
+.a{
+    font-weight: 700;
+    padding-left: 4px;
+}
+.box2 h2{
+    font-size: 18px;
+    font-size: 700;
+    line-height: 1.5;
+    padding-left: 28px;
+    padding-top: 13px;
+}
+
+.section5{
+    width: 100%;
+    height: 370px;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 165px;
+}
+.section5 div img{
+    width: 266px;
+    height: 350px;
+    margin-left: 40px;
+}
+.heads{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 165px;
+}
+.heads .A{
+    width: 263px;
+    height: 76px;
+}
+.heads .A h2{
+    border-bottom: 1px solid yellow;
+    display: inline-block;
+    margin-left: 70px;
+}
+.heads .b{
+    width: 263px;
+    height: 76px;
+}
+.heads .b h2{
+    border-bottom: 1px solid yellow;
+    display: inline-block;
+    margin-left: 50px;
+}
+.heads .c{
+    width: 263px;
+    height: 76px;
+}
+.heads .c h2{
+    border-bottom: 1px solid yellow;
+    display: inline-block;
+    margin-left: 91px;
+}
+.heads .d{
+    width: 263px;
+    height: 76px;
+}
+.heads .d h2{
+    border-bottom: 1px solid yellow;
+    display: inline-block;
+    margin-left: 70px;
+}
+.section6{
+    width: 100%;
+    height: 751px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.stage1{
+    width: 600px;
+    height: 707px;
+}
+.stage1 img{
+    width: 600px;
+    height: 707px;
+    margin-left: 120px;
+}
+.store{
+    width: 500px;
+    height: 700px;
+    margin-right: 184px;
+}
+.stage2{
+    width: 585px;
+    height: 340px;
+    position: relative;
+    margin-bottom: 29px;
+}
+.stage2 img{
+    width: 580px;
+    height: 339px;
+}
+.stage2 h1{
+    position: absolute;
+    top:40%;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 129px;
+}
+.stage3{
+    width: 585px;
+    height: 340px;
+    position: relative;
+}
+.stage3 img{
+    width: 580px;
+    height: 339px;
+}
+.stage3 h1{
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 193px;
+}
+.row{
+    width: 100%;
+    height: 95px;
+    background: white;
+    cursor: text;
+}
+.row h1{
+    font-size: 40px;
+    font-weight: bolder;
+    border-bottom: 1px solid yellow;
+    display: inline-block;
+    margin-left: 700px;
+    line-height: 1;
+    margin-top: 22px;
+}
+.section7{
+    width: 100%;
+    height: 600px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    width: 200px;
+    height: 556px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 52px;
+    padding-bottom: -10px;
+}
+.one img{
+    width: 220px;
+    height: 248px;
+}
+.two{
+    width: 220px;
+    height: 550px;
+    display: flex;
+}
+.two img{
+    width: 220px;
+    height: 524px;
+    object-fit: cover;
+}
+.three{
+    width: 200px;
+    height: 556px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px 32px;
+}
+.three img{
+    width: 230px;
+    height: 248px;
+}
+.four{
+    width: 200px;
+    height: 556px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 32px;
+}
+.four img{
+    width: 230px;
+    height: 248px;
+}
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    font-family: 'PrestigeElitestd';
+    padding: 0px 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.first_part{
+    width: 152px;
+    height: 234px;
+    display: block;
+    padding: 57px 10px;
+}
+.first_part h1{
+    font-weight: bold;
+    word-spacing: -2px;
+    letter-spacing: -1px;
+    padding-bottom: 23px;
+}
+.first_part ul li{
+    list-style: none;
+    letter-spacing: 1.5px;
+    line-height: 2;
+    font-size: 18px;
+}
+.second_part{
+    width: 351px;
+    height: 350px;
+    display: block;
+    padding: 57px 10px;
+}
+.second_part h1{
+    font-weight: bold;
+    word-spacing: -2px;
+    letter-spacing: -1px;
+    padding-bottom: 23px;
+}
+.second_part ul li{
+    list-style: none;
+    letter-spacing: 1.5px;
+    line-height: 2;
+    font-size: 18px;
+}
+.third_part{
+    width: 251px;
+    height: 350px;
+    display: block;
+    padding: 57px 10px;
+}
+.third_part h1{
+    font-weight: bold;
+    word-spacing: -2px;
+    letter-spacing: -1px;
+    padding-bottom: 40px;
+}
+.third_part i{
+    font-size: 26px;
+    padding-right: 20px;
+}
+.fourth_part{
+    width: 264px;
+    height: 350px;
+    display: block;
+    padding: 57px 0px;
+}
+.fourth_part h1{
+    font-weight: bold;
+    word-spacing: -2px;
+    letter-spacing: -1px;
+    padding-bottom: 23px;
+}
+.fourth_part p{
+    letter-spacing: 1.5px;
+    line-height: 2;
+    font-size: 18px;
+}
+.last_part{
+    width: 100%;
+    height: 91px;
+    background: black;
+    color: white;
+    font-family: 'PrestigeElitestd';
+}
+.last_part p{
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-size: 18px;
+    padding-left: 83px;
+
+}
+
